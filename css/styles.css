@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Kollektif';
-    src: url('Kollektif.eot');
-    src: url('Kollektif.eot?#iefix') format('embedded-opentype'),
-        url('Kollektif.woff2') format('woff2'),
-        url('Kollektif.woff') format('woff'),
-        url('Kollektif.ttf') format('truetype'),
-        url('Kollektif.svg#Kollektif') format('svg');
+    src: url('../fonts/Kollektif.eot');
+    src: url('../fonts/Kollektif.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Kollektif.woff2') format('woff2'),
+        url('../fonts/Kollektif.woff') format('woff'),
+        url('../fonts/Kollektif.ttf') format('truetype'),
+        url('../fonts/Kollektif.svg#Kollektif') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'Al Ragas';
-    src: url('Al_Ragas.eot');
-    src: url('Al_Ragas.eot?#iefix') format('embedded-opentype'),
-        url('Al_Ragas.woff2') format('woff2'),
-        url('Al_Ragas.woff') format('woff'),
-        url('Al_Ragas.ttf') format('truetype'),
-        url('Al_Ragas.svg#Al_Ragas') format('svg');
+    src: url('../fonts/Al_Ragas.eot');
+    src: url('../fonts/Al_Ragas.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Al_Ragas.woff2') format('woff2'),
+        url('../fonts/Al_Ragas.woff') format('woff'),
+        url('../fonts/Al_Ragas.ttf') format('truetype'),
+        url('../fonts/Al_Ragas.svg#Al_Ragas') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -26,13 +26,13 @@
 
 @font-face {
     font-family: 'Bagnard';
-    src: url('Bagnard.eot');
-    src: url('Bagnard.eot?#iefix') format('embedded-opentype'),
-        url('Bagnard.woff2') format('woff2'),
-        url('Bagnard.woff') format('woff'),
-        url('BagnardSans.otf') format('opentype'),
-        url('Bagnard.ttf') format('truetype'),
-        url('Bagnard.svg#Bagnard') format('svg');
+    src: url('../fonts/Bagnard.eot');
+    src: url('../fonts/Bagnard.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Bagnard.woff2') format('woff2'),
+        url('../fonts/Bagnard.woff') format('woff'),
+        url('../fonts/BagnardSans.otf') format('opentype'),
+        url('../fonts/Bagnard.ttf') format('truetype'),
+        url('../fonts/Bagnard.svg#Bagnard') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -40,12 +40,12 @@
 
 @font-face {
     font-family: 'Gangster Grotesk';
-    src: url('GangsterGrotesk-Regular.eot');
-    src: url('GangsterGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
-        url('GangsterGrotesk-Regular.woff2') format('woff2'),
-        url('GangsterGrotesk-Regular.woff') format('woff'),
-        url('GangsterGrotesk-Regular.ttf') format('truetype'),
-        url('GangsterGrotesk-Regular.svg#GangsterGrotesk-Regular') format('svg');
+    src: url('../fonts/GangsterGrotesk-Regular.eot');
+    src: url('../fonts/GangsterGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GangsterGrotesk-Regular.woff2') format('woff2'),
+        url('../fonts/GangsterGrotesk-Regular.woff') format('woff'),
+        url('../fonts/GangsterGrotesk-Regular.ttf') format('truetype'),
+        url('../fonts/GangsterGrotesk-Regular.svg#GangsterGrotesk-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -53,12 +53,12 @@
 
 @font-face {
     font-family: 'Gangster Grotesk';
-    src: url('GangsterGrotesk-Bold.eot');
-    src: url('GangsterGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
-        url('GangsterGrotesk-Bold.woff2') format('woff2'),
-        url('GangsterGrotesk-Bold.woff') format('woff'),
-        url('GangsterGrotesk-Bold.ttf') format('truetype'),
-        url('GangsterGrotesk-Bold.svg#GangsterGrotesk-Bold') format('svg');
+    src: url('../fonts/GangsterGrotesk-Bold.eot');
+    src: url('../fonts/GangsterGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GangsterGrotesk-Bold.woff2') format('woff2'),
+        url('../fonts/GangsterGrotesk-Bold.woff') format('woff'),
+        url('../fonts/GangsterGrotesk-Bold.ttf') format('truetype'),
+        url('../fonts/GangsterGrotesk-Bold.svg#GangsterGrotesk-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -66,12 +66,12 @@
 
 @font-face {
     font-family: 'Kollektif';
-    src: url('Kollektif-Bold.eot');
-    src: url('Kollektif-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Kollektif-Bold.woff2') format('woff2'),
-        url('Kollektif-Bold.woff') format('woff'),
-        url('Kollektif-Bold.ttf') format('truetype'),
-        url('Kollektif-Bold.svg#Kollektif-Bold') format('svg');
+    src: url('../fonts/Kollektif-Bold.eot');
+    src: url('../fonts/Kollektif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Kollektif-Bold.woff2') format('woff2'),
+        url('../fonts/Kollektif-Bold.woff') format('woff'),
+        url('../fonts/Kollektif-Bold.ttf') format('truetype'),
+        url('../fonts/Kollektif-Bold.svg#Kollektif-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
