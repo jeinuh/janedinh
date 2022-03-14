@@ -30,6 +30,7 @@
     src: url('Bagnard.eot?#iefix') format('embedded-opentype'),
         url('Bagnard.woff2') format('woff2'),
         url('Bagnard.woff') format('woff'),
+        url('BagnardSans.otf') format('opentype'),
         url('Bagnard.ttf') format('truetype'),
         url('Bagnard.svg#Bagnard') format('svg');
     font-weight: normal;
@@ -224,7 +225,7 @@ h3{
 
 		.image.bio.right {
 			float: right;
-			width: 200px;
+			max-width: 200px;
 			margin: 1em 1.5em 1em 1em;
 			top: 0.25em;
 			border-radius: 100%;
@@ -564,6 +565,17 @@ footer#footer {
       line-height: 48px;
     }
 
+    .image.left, .image.right {
+			max-width: 100px;
+		}
+
+  	.image.bio.right {
+    		float: right;
+    		max-width: 100px;
+    		margin: 1em 1.5em 1em 1em;
+    		top: 0.25em;
+    		border-radius: 100%;
+    		}
 }
 
 .reveal{
