@@ -29,6 +29,7 @@ b{
   font-family: 'Inter';
   text-align: center;
   position: absolute;
+  padding: 2%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -109,13 +110,14 @@ h3{
   background-image: none;
   background-repeat: no-repeat;
   background-position: left top;
-  color: #FFFFFF;
+  color: #EDF1F4;
   padding: 5% 2%;
 }
 
 #one-content{
-  width: 74%;
-  padding: 4% 8% 4% 4%;;
+  margin: auto;
+  width: 78%;
+  padding: 4% 6%;
   background: rgba(79, 97, 118, 0.97);
 }
 
@@ -135,6 +137,24 @@ h3{
 #two, #three, #callout{
     width: 70%;
     padding: 4%;
+}
+
+#two p{
+  margin-top: 30px;
+}
+
+#three h6{
+  font-size: 0.8rem;
+  line-height: 1.7rem;
+  letter-spacing: 2px;
+  font-family: 'Kollektif';
+  font-weight: bold;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  display: inline;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #47576B;
 }
 
 .content h3 {
@@ -169,8 +189,10 @@ h3{
   color: #4F6176;
   text-transform: none;
 }
-.img-fluid{
-  padding: 10px;
+
+#two .img-fluid{
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 14px 0 rgba(0, 0, 0, 0.08);
 }
 footer#footer {
   background-image: url('../images/wave-litest-footer.png');
