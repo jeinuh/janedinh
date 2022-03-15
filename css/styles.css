@@ -362,7 +362,7 @@ h3{
 }
 
 #bio{
-  height: 120vh;
+  min-height: 120vh;
   background-image: url('../images/wave2.png');
   background-repeat: no-repeat;
   background-position: left top;
@@ -374,7 +374,7 @@ h3{
 }
 
 #bio .box{
-  margin-top:100px;
+  margin-top:40vh;
   width: 70%;
 }
 
@@ -457,11 +457,11 @@ h3{
 
 #case-studies h5{
   font-size: 0.8rem;
-  line-height: 1.8rem;
+  line-height: 1.2rem;
   letter-spacing: 1px;
   font-family: 'Kollektif';
   font-weight: bold;
-  color: #FF6A67;
+  color: salmon;
   text-transform: uppercase;
 }
 
@@ -561,6 +561,11 @@ footer#footer {
     .banner h2 {
       font-size: 34px;
       line-height: 48px;
+    }
+
+    h3{
+      font-size: 2rem;
+      line-height: 2.5rem;
     }
 
     .image.left, .image.right {
