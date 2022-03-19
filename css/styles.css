@@ -82,6 +82,7 @@ body {
     background-image: url('../images/wave-lite.png');
     background-repeat: no-repeat;
     background-position: left top;
+    overflow-x: hidden;
 }
 
 @keyframes slideInUp {
@@ -369,12 +370,12 @@ h3{
   background-color: #2A3747;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 10vh;
   text-align: left;
 }
 
 #bio .box{
-  margin-top:40vh;
+  margin-top:18vh;
   width: 70%;
 }
 
@@ -566,6 +567,10 @@ footer#footer {
     h3{
       font-size: 2rem;
       line-height: 2.5rem;
+    }
+    #bio {
+      padding: 6vh 0vh;
+      align-items: center;
     }
 
     .image.left, .image.right {
