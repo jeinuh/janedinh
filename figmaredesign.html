@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/00e8294d94.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css" class="href">
+    <link rel="stylesheet" href="css/page-style.css" class="href">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Jane Dinh Portfolio - Figma Comment System Redesign</title>
+  </head>
+  <body>
+
+    <section id="title">
+      <!-- Nav Bar -->
+    <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand me-auto" href="index.html"><img class="logo-img" id="logo" src="images/logo.png" alt="logo" data-aos="fade-right" data-aos-duration="1250"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item" data-aos="fade-left" data-aos-duration="500">
+                <a class="nav-link" href="index.html#bio">About</a>
+              </li>
+              <li class="nav-item" data-aos="fade-left" data-aos-duration="1000">
+                <a class="nav-link" href="index.html#case-studies">Work</a>
+              </li>
+              <li class="nav-item" data-aos="fade-left" data-aos-duration="1500">
+                <a class="nav-link" href="index.html#contact">Resume</a>
+              </li>
+            <li class="nav-item" data-aos="fade-left" data-aos-duration="2000">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <!-- Hero Image -->
+          <div class="hero-image-figma">
+            <div class="hero-text">
+              <h1 style="font-size:50px">Smart Feedback: Figma Comment System Redesign</h1>
+            </div>
+      </div>
+    </section>
+
+    <div class="content">
+
+    <!-- Intro -->
+    <section id="one">
+    <section class="container" id="one-content" data-aos="fade-left" data-aos-duration="1000">
+      <h3>Overview</h3>
+          <div class="row">
+            <div class="col-12 pb-5">
+<p>Smart Feedback is a a redesign of Figma's comment system that provides context-relevant system
+ reminders and a visual suggestion functionality, enabling Figma users to provide
+  more constructive, actionable feedback.</p>
+
+  <p>
+    <small>This was done as a 5-week team project under the instruction of Professor Haijun Xia for Design 118 at UC San Diego.</small>
+  </p>
+        </div>
+            <div class="col-4">
+              <h4> Team </h4><br>
+              Yada Chuengsatiansup<br>
+              Han Bao<br>
+              Angela Wang
+          </div>
+          <div class="col-4">
+            <h4>My Roles</h4><br>
+              Strategy <br>
+              UI Design<br>
+              Prototyping
+          </div>
+          <div class="col-4">
+          <h4>Tools</h4><br>
+            Figma
+          </div>
+          </div>
+    </section>
+    </section>
+
+    <!--  Content -->
+
+    <section class="container" id="two" >
+      <div class="sticky"><h4>01</h4><h5> Context</h5></div>
+      <h3>Figma's Comment System is not Conducive to Productive Visual Design</h3>
+      <p>
+        In professional design settings, style guides provide a concrete framework
+        for visual design language. However with collaborative situations where
+        design style is variable such as school projects or client branding,
+        visual details are constantly in flux and negotiated via feedback.
+
+<br><br>
+
+          Feedback and clear communication is pivotal for collaborative work.
+          <b>However Figma’s comment system is generic, overly verbal, and does not
+          reflect the visual nature of the work.</b> Consequently, left to their
+          own devices, users can provide unclear or ambiguous verbal feedback which bogs
+          down the design process if misinterpreted.
+
+      </p>
+    </section>
+
+    <!-- Callout -->
+        <section class="container reveal" id="callout">
+            <h5>Problem statement</h5>
+            <h3>
+              To streamline collaborative iteration, Figma users need a design-relevant feedback
+                system which provides support for providing actionable and
+                precise feedback.
+            </section>
+
+        <!--  Content -->
+        <div class="testing">
+          <div class="sticky-outer"><h4>02</h4><h5> Ideation</h5></div>
+
+        <section class="container" id="two" >
+        <!--  <div class="sticky"><h4>02 </h4><h5>User Research</h5></div>-->
+          <h3>Competitor inspiration: Using AI to Reduce Cognitive Load and Spark Ideas</h3>
+          <p>During competitor research, we examined popular tools that each had a feedback functionality: Grammarly and Google Docs.
+            In both applications, we observed that <b>AI was used to provide customized suggestions.</b>
+            We were inspired by how it could reduce cognitive load by
+            providing users individualized suggestions. Rather than a blank slate,
+            users receive additional support from system cues which can also incidentally
+            spark new ideas.</p>
+            <p>
+            We also appreciated how Google Docs' <b>suggestion functionality where
+            feedback authors could make edits to the work, enabling recipients to get a concrete
+            visualization of changes.</b> </p>
+              <div class="container">
+                  <div class="row row-cols-2">
+                    <div class="col"><img src="images/figma/grammarly.gif" alt="Grammarly functionality" class="img-fluid"></div>
+                    <div class="col"><img src="images/figma/googledocs.gif" alt="Google Docs functionality" class="img-fluid"></div>
+                    <div class="col"><center><small><b>Grammarly</b> is a writing assistant which provides AI-tailored suggestions to improve writing.
+                    </small></center></div>
+                    <div class="col"><center><small><b>Google Docs</b> uses AI to provide possible auto-fill wording ideas.
+                    </small></center></div>
+                  </div>
+            </div>
+
+              <p>
+              <b>We adapted these features to our design:</b>
+              <div class="container">
+                  <div class="row row-cols-2">
+                    <div class="col"><b>Verbal cues:</b></div>
+                    <div class="col"><b>Visual suggestions:</b></div>
+                    <div class="col">While writing feedback, system provides
+                       ideas for better (i.e. actionable) feedback</div>
+                    <div class="col">System generates a selection of
+                      visually previewable suggestions based on written feedback</div>
+                  </div>
+            </div>
+            </p>
+        </section>
+
+<!-- Hero image -->
+        <div class="hero-image-figma-1 reveal">
+            <div class="hero-text">
+            <h1 style="font-size:50px">Design Process</h1>
+            </div>
+        </div>
+
+        <section class="container" id="two" >
+          <p>
+          <b>Before jumping into the interface design, we mapped out the high-level interactive
+             flow of our system:</b>
+          </p>
+          <img src="images/figma/4.png" class="img-fluid" style="padding: 20px; box-shadow: none;" alt="Flow map">
+          <p>
+          The system functionality is predicated on natural language processing to generate suggestions.</p><p>
+          <b>Users can provide feedback in written text or voiced input.</b> However, in either flow, the recipient receives the same format of feedback: a <b>summary card</b> which distills feedback from either input flow
+          and a <b>"Smart Suggestions" modal</b> which contains options for users to hover over to preview changes.
+          </p>
+
+        </section>
+
+        <!-- Callout -->
+        <section class="container reveal" id="callout">
+          <h5>Design rationale</h5>
+          <p style="color:black;">
+            <b>Text + Voiced input:</b> Additional flexibility to support diversity of workflows
+          </p>
+          <p style="color:black;">
+            <b>Summary card:</b> Standardized format streamlines feedback points for more clarity
+          </p><p style="color:black;">
+            <b>Smart Suggestions modal:</b> Visual previews can be directly implemented or ignored, streamlining iteration
+            </p>
+        </section>
+
+        <!--  Content -->
+          <div class="sticky-outer"><h4>03</h4><h5> Lofi Prototypes</h5></div>
+
+        <section class="container" id="two" >
+          <h3>Mapping out the flows onto interface skeletons </h3>
+          <p>We applied our ideas to lo-fi prototypes to make sure our interactive
+            flow would make sense when mapped out on an actual interface:</p>
+          <img src="images/figma/2.png" class="img-fluid" alt="User survey 2"><br>
+          <center><small>Flow for text input</small></center><br>
+          <img src="images/figma/3.png" class="img-fluid" alt="User survey 2"><br>
+          <center><small>Flow for voiced input</small></center>
+          <p>
+          At this stage, we had to determine what the summary card would specifically contain.
+          We determined the <b>summary card would distill input into four areas we felt would
+           produce specific, relevant, and actionable feedback in Figma:</b><br/>
+              <ul>
+              <li><b>Critical level</b>: What priority is this feedback? <i>(e.g. Low)</i></li>
+              <li><b>Area</b>: Where? <i>(e.g. Background)</i></li>
+              <li><b>Feedback</b>: What? (e.g. Too dark)</li>
+              <li><b>Action</b>: Do what next? (e.g. Lighten background)</li>
+            </ul>
+          </p>
+        </section>
+
+
+    <!-- Content -->
+    <div class="sticky-outer"><h4>04</h4><h5> Redefining</h5></div>
+    <section class="container" id="three" >
+      <h3>Evaluating User Needs of Collaborative Figma Users</h3>
+      <p>
+        We had to consider the real-world constraints of working in a large collaborative
+        design project: multiple people working on a single project, providing and
+        receiving feedback concurrently with disparate milestones and corresponding deadlines.
+      </p><p>To make the summary card more specific and thus more effective, we added <b>deadline dates</b> and
+        <b>assignee</b> parameters.
+      </p>
+    </section>
+
+        <!-- Content -->
+        <div class="sticky-outer"> <h4>05</h4><h5> Final design</h5></div>
+        <section class="container" id="three" >
+          <h3>Adding color and interactions</h3>
+          <p>We fleshed out our prototypes, taking cues from the visual style of
+            Figma's comment system:
+          </p>
+          <br>
+          <h6>Voiced input</h6>
+          <img src="images/figma/5_0.png" class="img-fluid" alt="Homepage">
+          <br><center>As the user speaks, the system provides real-time cues for what areas to include (action, area, priority, deadline, assignee)</center><br>
+          <br>
+          <h6>Text input Autocomplete suggestions</h6>
+          <br>
+          <img src="images/figma/5.png" class="img-fluid" alt="Homepage">
+          <br><center>As the user types, the system provides contextual auto-complete suggestions which the user can implement or ignore (make text lighter, make background lighter)</center><br>
+          <br>
+          <h6>Assigning feedback to a user</h6>
+          <br>
+          <img src="images/figma/5_2.png" class="img-fluid" alt="Search filter">
+          <br><center>System provides dropdown list of possible users to assign to if identifiable name is parsed</center><br>
+          <br>
+          <h6>Summary card + Suggestions overlay</h6>
+          <br>
+          <img src="images/figma/6.png" class="img-fluid" alt="Checkout/shipping">
+          <br><center>Once user clicks post, system generates a feedback summary card with most salient feedback areas. A "smart suggestions" panel is generated from "action" area of summary.</center><br>
+          <br>
+          <div class="iframeContentCenter">
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="414" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fmu0Abzdu2JVrzt17wibHTk%2FDSGN-118-A3-PROTOTYPE-(Copy)%3Fpage-id%3D0%253A1%26node-id%3D25%253A490%26viewport%3D141%252C383%252C0.03%26scaling%3Dscale-down%26starting-point-node-id%3D25%253A490%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+          </div>
+        </section>
+
+        <!-- Hero image -->
+        <div class="hero-image-figma reveal">
+          <div class="hero-text">
+            <h1 style="font-size:50px;">Takeaways</h1>
+          </div>
+        </div>
+
+        <section class="container" id="three" >
+          <div class="sticky"><h4>05</h4> <h5>Summary</h5></div>
+          <h3>Smart Feedback is Smart Design</h3>
+          <p>
+          Smart Feedback streamlines feedback/iteration process by leveraging AI + NLP
+          to provide individualized verbal and visual suggestions. This design and context-conscious system
+          enables clearer, more actionable feedback and may stimulate the generation of additional design ideas.
+          <b>When the system provides more support to the feedback author to provide
+           better feedback, it benefits all parties, bolstering productivity and
+            innovation.</b>
+
+          </p>
+        </section>
+
+        <section class="container" id="three" >
+          <div class="sticky"><h4>06</h4> <h5>Takeaways</h5></div>
+          <h3>Real-World Insights + Acknowledgements</h3>
+          <p>
+          While user research + testing was outside the scope of this project, it would greatly benefit
+          from getting real-world insight from a variety of Figma use cases to determine real user needs.
+          <i>What do users determine as bad vs good feedback? Are the system suggestions actually helpful or distracting?</i>
+          <br/><br/>
+          Overall, by doing this project I didn't just garner new design experience,
+          but I also learned a great deal about how to communicate, motivate, and pivot design decisions
+          thanks to the presentation milestones and feedback thereof.
+          <b>I'd like to thank Professor Haijun Xia for his
+          constructive feedback and insightful curriculum as well as my teammates Yada, Han, and Angela for their collaboration and
+          great work.
+        </b></p>
+        </section>
+            <!-- Img
+            <section id="img-one">
+            <section class="container reveal" id="img-one-content">
+
+              <img src="https://bootstrapious.com/i/snippets/sn-static-header/background.jpg" class="img-fluid" alt="Responsive image">
+
+            </section>
+            </section>-->
+
+<!-- Content closing tag -->
+</div>
+
+  <footer id="footer">
+<div class="footer">
+  <p>Jane Dinh, 2022 💙</p></div>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/reveal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+  </body>
+</html>
